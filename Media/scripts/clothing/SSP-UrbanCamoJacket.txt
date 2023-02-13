@@ -1,0 +1,24 @@
+module Base
+{
+    item Jacket_ArmyCamoUrban
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Urban Camo Jacket,
+        ClothingItem = Jacket_ArmyCamoUrban,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = ShirtCamoGrey,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.55,
+        WindResistance = 0.3,
+        FabricType = Cotton,
+        WaterResistance = 0.35,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+}
